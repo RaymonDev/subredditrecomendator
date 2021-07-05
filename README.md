@@ -2,7 +2,7 @@
 This program generates custom subreddit recomendations acording to your Google Chrome history
 
 .
-## Before using the script, you need to create your own Reddit App, and enter the Client ID and the secret token in the specified section of the code. Click [here](https://www.reddit.com/prefs/apps) to create it. Also, make sure to fill in all the details inside the python file, like the path to your History file or the details of your reddit aplication
+## Before using the script, you need to create your own Reddit App, and enter the Client ID and the secret token in the specified section of the code. Click [here](https://www.reddit.com/prefs/apps) to create it. Also, make sure to fill in all the details inside the python file, like the path to your History file or the details of your reddit aplication (line 12 and line 82)
 .
 
 ## How it works
@@ -23,7 +23,8 @@ PRAW
 
 ## Error solutions:
 - Make sure that Google Chrome is not running.
-- Make sure that the path of your Google Chrome History file is correct.
+- Make sure that the path of your Google Chrome History file is correct. (line 12)
+- Make sure your reddit aplication info is correct (line 82) 
 - Check if all the libraries are installed.
 
 
