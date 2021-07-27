@@ -1,4 +1,6 @@
 
+#RaymonDev
+#This program recomends subreddits acording to the Google Chrome history
 
 namesarray = [] #array that stores all the recomendation values
 
